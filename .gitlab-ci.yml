@@ -1,0 +1,5 @@
+stages:
+    - build
+job:
+    stage: build
+    script: '"C:\Program Files\dotnet\dotnet.exe" build "C:\!Pro\HADES.NC\UI" --configuration Release --no-dependencies --no-incremental'
